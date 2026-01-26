@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: "Pretendard Variable", "Pretendard", sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10vh;
+    padding-left: 5%;
+    word-break: keep-all;
+}
+
+main p, .context, .intro-text {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+main p {
+    width: 30vw;
+    flex-shrink: 0;
+}
+
+.context {
+    padding-right: 5%;
+}
+
+.intro-text {
+    white-space: nowrap;
+}
+
+.name-link {
+    position: relative;
+    color: inherit;
+    text-decoration: none !important; /* 브라우저 기본 밑줄 완전 제거 */
+    outline: none;
+    cursor: pointer;
+}
+
+/* 2. 링크 안의 글자 (권점 및 애니메이션 담당) */
+.name-link span {
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+
+    -webkit-text-emphasis: filled dot #ffffff;
+    text-emphasis: filled dot #ffffff;
+    -webkit-text-emphasis-position: over;
+    text-emphasis-position: over;
+}
+
+/* 3. 호버 시 효과 (글자색과 점 색상을 동시에 변경) */
+.name-link span:hover {
+    color: #454545; /* 지영님이 고르신 회색 */
+    -webkit-text-emphasis-color: #454545;
+    text-emphasis-color: #454545;
+}
+
+.name-link span i {
+    -webkit-text-emphasis: none !important;
+    text-emphasis: none !important;
+    font-style: normal;
+    padding: 0 2px; 
+}
+
+/* 4. 팝업 카드 스타일 */
+.pop-card {
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    padding: 10px; 
+    background: #222;
+    border: 1px solid #444;
+    z-index: 100;
+    cursor: default;
+    white-space: normal; 
+    word-break: keep-all;
+    text-align: justify;
+}
+
+.pop-card p {
+    font-size: 0.85rem !important;
+    font-weight: 400 !important;
+    line-height: 1.2 !important;
+    color: #ccc !important;
+    margin: 0 !important;
+}
+
+/* 호버 시 팝업 등장 */
+.name-link:hover .pop-card {
+    display: block;
+}
