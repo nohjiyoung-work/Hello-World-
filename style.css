@@ -33,7 +33,7 @@ main p {
 .context {
     padding-right: 5%;
     opacity: 0 !important; 
-    transform: translateY(10px); /* 나타날 때 위로 올라오는 효과 */
+    transform: translateY(10px);
     transition: opacity 1s ease, transform 1s ease;
     color: white;
 }
@@ -57,10 +57,9 @@ main p {
 
 @keyframes rainbow-text {
     0%   { filter: hue-rotate(0deg);   }
-    100% { filter: hue-rotate(360deg); } /* 0도에서 360도까지 색조를 한 바퀴 돌림 */
+    100% { filter: hue-rotate(360deg); }
 }
 
-/* 2. 링크 안의 글자 (권점 및 애니메이션 담당) */
 .name-link span {
     position: relative;
     display: inline-block;
@@ -71,22 +70,19 @@ main p {
     animation: rainbow-text 2s linear infinite;
 }
 
-/* 무지개 애니메이션 정의 */
 @keyframes rainbow-text {
     0% { filter: hue-rotate(0deg); }
     100% { filter: hue-rotate(360deg); }
 }
 
-/* 3. 호버 시 효과 (호버하면 애니메이션 정지 및 회색 변경) */
 .name-link span:hover {
-    animation-play-state: paused; /* 애니메이션 일시정지 */
+    animation-play-state: paused;
     color: #454545 !important;
-    filter: none !important; /* 무지개 필터 제거 */
+    filter: none !important;
     -webkit-text-emphasis-color: #454545;
     text-emphasis-color: #454545;
 }
 
-/* 4. 팝업 카드 스타일 */
 .pop-card {
     display: none;
     position: absolute;
@@ -110,7 +106,6 @@ main p {
     margin: 0 !important;
 }
 
-/* 호버 시 팝업 등장 */
 .name-link:hover .pop-card {
     display: block;
 }
@@ -118,48 +113,42 @@ main p {
 /* --- 모바일 반응형 코드 (화면 너비 768px 이하) --- */
 @media screen and (max-width: 768px) {
     body {
-        /* 옆 스크롤 방지 */
         overflow-x: hidden;
         width: 100%;
     }
 
     main {
-        /* 가로 정렬을 세로 정렬로 변경 */
         flex-direction: column;
-        margin-top: 5vh; /* 상단 여백 조절 */
-        padding-left: 7%; /* 모바일에서 조금 더 여유 있게 */
+        margin-top: 5vh;
+        padding-left: 7%;
     }
 
-    /* 제목과 본문 공통 폰트 사이즈 조절 */
     main p, .context, .intro-text {
-        font-size: 2rem !important; /* 3.5rem -> 2rem */
+        font-size: 2rem !important;
         line-height: 1.4;
-        width: 100%; /* 너비 꽉 채우기 */
+        width: 100%;
     }
 
     main p {
-        margin-bottom: 3vh; /* [요청] 제목 뒤에 3vh 간격 */
+        margin-bottom: 3vh;
     }
 
     .context {
-        padding-left: 0; /* 제목과 왼쪽 정렬 맞춤 */
+        padding-left: 0;
         padding-right: 7%;
-        word-break: keep-all; /* 단어별 줄바꿈 유지 */
+        word-break: keep-all;
     }
-
-    /* [요청] 모바일에서는 hover 효과 및 pop-card 제거 */
+    
     .pop-card {
-        display: none !important; /* 모바일에서는 절대 안 보이게 */
+        display: none !important;
     }
 
-    /* 모바일에서는 hover를 해도 색이 변하지 않도록 설정 (터치 오작동 방지) */
     .name-link span:hover {
         animation-play-state: running !important;
-        color: #ffb3b3 !important; /* 무지개 기본색 유지 */
+        color: #ffb3b3 !important;
         filter: none;
     }
 
-    /* 무지개 색상 효과는 유지 */
     .name-link span {
         animation: rainbow-text 2s linear infinite;
     }
