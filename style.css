@@ -114,3 +114,53 @@ main p {
 .name-link:hover .pop-card {
     display: block;
 }
+
+/* --- 모바일 반응형 코드 (화면 너비 768px 이하) --- */
+@media screen and (max-width: 768px) {
+    body {
+        /* 옆 스크롤 방지 */
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    main {
+        /* 가로 정렬을 세로 정렬로 변경 */
+        flex-direction: column;
+        margin-top: 5vh; /* 상단 여백 조절 */
+        padding-left: 7%; /* 모바일에서 조금 더 여유 있게 */
+    }
+
+    /* 제목과 본문 공통 폰트 사이즈 조절 */
+    main p, .context, .intro-text {
+        font-size: 2rem !important; /* 3.5rem -> 2rem */
+        line-height: 1.4;
+        width: 100%; /* 너비 꽉 채우기 */
+    }
+
+    main p {
+        margin-bottom: 3vh; /* [요청] 제목 뒤에 3vh 간격 */
+    }
+
+    .context {
+        padding-left: 0; /* 제목과 왼쪽 정렬 맞춤 */
+        padding-right: 7%;
+        word-break: keep-all; /* 단어별 줄바꿈 유지 */
+    }
+
+    /* [요청] 모바일에서는 hover 효과 및 pop-card 제거 */
+    .pop-card {
+        display: none !important; /* 모바일에서는 절대 안 보이게 */
+    }
+
+    /* 모바일에서는 hover를 해도 색이 변하지 않도록 설정 (터치 오작동 방지) */
+    .name-link span:hover {
+        animation-play-state: running !important;
+        color: #ffb3b3 !important; /* 무지개 기본색 유지 */
+        filter: none;
+    }
+
+    /* 무지개 색상 효과는 유지 */
+    .name-link span {
+        animation: rainbow-text 2s linear infinite;
+    }
+}
