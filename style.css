@@ -33,7 +33,7 @@ main p {
 .context {
     padding-right: 5%;
     opacity: 0 !important; 
-    transform: translateY(10px);
+    transform: translateY(10px); /* 나타날 때 위로 올라오는 효과 */
     transition: opacity 1s ease, transform 1s ease;
     color: white;
 }
@@ -57,9 +57,10 @@ main p {
 
 @keyframes rainbow-text {
     0%   { filter: hue-rotate(0deg);   }
-    100% { filter: hue-rotate(360deg); }
+    100% { filter: hue-rotate(360deg); } /* 0도에서 360도까지 색조를 한 바퀴 돌림 */
 }
 
+/* 2. 링크 안의 글자 (권점 및 애니메이션 담당) */
 .name-link span {
     position: relative;
     display: inline-block;
@@ -70,19 +71,16 @@ main p {
     animation: rainbow-text 2s linear infinite;
 }
 
-@keyframes rainbow-text {
-    0% { filter: hue-rotate(0deg); }
-    100% { filter: hue-rotate(360deg); }
-}
-
+/* 3. 호버 시 효과 (호버하면 애니메이션 정지 및 회색 변경) */
 .name-link span:hover {
-    animation-play-state: paused;
+    animation-play-state: paused; /* 애니메이션 일시정지 */
     color: #454545 !important;
-    filter: none !important;
+    filter: none !important; /* 무지개 필터 제거 */
     -webkit-text-emphasis-color: #454545;
     text-emphasis-color: #454545;
 }
 
+/* 4. 팝업 카드 스타일 */
 .pop-card {
     display: none;
     position: absolute;
@@ -106,6 +104,7 @@ main p {
     margin: 0 !important;
 }
 
+/* 호버 시 팝업 등장 */
 .name-link:hover .pop-card {
     display: block;
 }
@@ -138,7 +137,7 @@ main p {
         padding-right: 7%;
         word-break: keep-all;
     }
-    
+
     .pop-card {
         display: none !important;
     }
