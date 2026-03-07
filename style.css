@@ -92,14 +92,14 @@ html, body {
 
 /* 영어 색상 */
 .lang-eng .text-block     { color:#ffffff; }
-.lang-eng .text-block.old { color:#5A00C8; }
+.lang-eng .text-block.old { color:#9F50FF; }
 
 /* 말머리 */
 .heading { display:inline; }
 
 /* 깜빡 애니메이션 */
 @keyframes blinkKor { 0%,100%{color:#000000} 50%{color:#00C756} }
-@keyframes blinkEng { 0%,100%{color:#ffffff} 50%{color:#6000D4} }
+@keyframes blinkEng { 0%,100%{color:#ffffff} 50%{color:#9F50FF} }
 
 .lang-kor .heading.blink {
   animation:blinkKor 1.2s ease-in-out infinite; cursor:pointer;
@@ -110,7 +110,7 @@ html, body {
 
 .text-block.old .heading { animation:none!important; }
 .lang-kor .text-block.old .heading { color:#00C756!important; }
-.lang-eng .text-block.old .heading { color:#5A00C8!important; }
+.lang-eng .text-block.old .heading { color:#9F50FF!important; }
 
 /* 링크: 타이핑 완료 후 .blink-ready 추가되면 깜빡임 시작 */
 /* no-break: 링크+꺽쇠 등 고유명사가 줄 중간에서 잘리지 않도록 */
@@ -122,7 +122,7 @@ html, body {
 
 .text-block.old .inline-link { animation:none!important; }
 .lang-kor .text-block.old .inline-link { color:#00C756!important; }
-.lang-eng .text-block.old .inline-link { color:#5A00C8!important; }
+.lang-eng .text-block.old .inline-link { color:#9F50FF!important; }
 
 /* 꺽쇠: 깜빡이지 않는 정적 텍스트 */
 .bracket { color:inherit; animation:none!important; }
