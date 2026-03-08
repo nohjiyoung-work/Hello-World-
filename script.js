@@ -23,7 +23,7 @@ const KOR_TEXTS = [
 const ENG_TEXTS = [
   {
     heading: 'I am...',
-    body: 'I was born in May 2000, right around the time <span class="no-break"><span class="bracket">&lt;</span><a class="inline-link" href="https://en.wikipedia.org/wiki/Being_John_Malkovich" target="_blank">Being John Malkovich</a><span class="bracket">&gt;</span></span> hit Korean theaters. I studied <span class="no-break">Communication Design</span> at <span class="no-break">Hanyang University</span> and spent some time diving into <span class="no-break">Graphic Design</span> at the <span class="no-break">University of Leeds</span>.'
+    body: 'I was born in May 2000, right around the time <span class="no-break"><span class="bracket">&lt;</span><a class="inline-link" href="https://en.wikipedia.org/wiki/Being_John_Malkovich" target="_blank">Being John Malkovich</a><span class="bracket">&gt;</span></span> hit Korean theaters. I studied <span class="no-break">Communication Design</span> at <span class="no-break">Hanyang University</span> and spent as exchange <span class="no-break">Graphic Design course student </span> at the <span class="no-break">University of Leeds</span>.'
   },
   {
     heading: 'As for Design\u2026',
@@ -31,7 +31,7 @@ const ENG_TEXTS = [
   },
   {
     heading: 'Lately, I\u2019m\u2026',
-    body: 'A heavy <a class="inline-link" href="https://letterboxd.com/jijiya_hi/" target="_blank">Letterboxd</a> user who steals a peek at others\u2019 reviews every single day. An armchair music critic who can\u2019t help but nod like a pigeon whenever a banger comes on. Currently obsessed with <span class="no-break">Rave sounds</span>\u2014and yes, I\u2019m deeply in love with <a class="inline-link" href="https://www.youtube.com/watch?v=MMSfBy2gdT4&feature=youtu.be" target="_blank">Fred again</a>..'
+    body: 'A heavy <a class="inline-link" href="https://letterboxd.com/jijiya_hi/" target="_blank">Letterboxd</a> user who steals a stars at others\u2019 reviews every single day. An armchair music critic who can\u2019t help but nod like a pigeon whenever a banger comes on. Currently obsessed with <span class="no-break">Rave sounds</span>\u2014and yes, I\u2019m deeply in love with <a class="inline-link" href="https://www.youtube.com/watch?v=MMSfBy2gdT4&feature=youtu.be" target="_blank">Fred again</a>..'
   },
   {
     heading: null,
