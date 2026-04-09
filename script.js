@@ -26,12 +26,12 @@ const ENG_TEXTS = [
     body: 'I was born in May 2000, when <span class="no-break"><span class="bracket">&lt;</span><a class="inline-link" href="https://en.wikipedia.org/wiki/Being_John_Malkovich" target="_blank">Being John Malkovich</a><span class="bracket">&gt;</span></span> came out in Korea, ish. I studied <span class="no-break">Communication Design</span> at <span class="no-break">Hanyang University</span> and spent as exchange student of <span class="no-break">Graphic Design course</span> at the <span class="no-break">University of Leeds</span>.'
   },
   {
-    heading: 'As for Design\u2026',
-    body: 'I focus on graphics, with a special heart for making books. You can find the nitty-gritty of my work on my <a class="inline-link" href="https://www.behance.net/juliehappy3137" target="_blank">Behance</a>. If you want to get a bit more personal, <a class="inline-link" href="https://www.instagram.com/jijiya_hi/" target="_blank">Instagram</a> is always a good idea!'
+    heading: 'My works are...\u2026',
+    body: 'I focus on graphics, with a particular focus on books. You can find the details of my work on my <a class="inline-link" href="https://www.behance.net/juliehappy3137" target="_blank">Behance</a>. If you want to connect with me personally, my <a class="inline-link" href="https://www.instagram.com/jijiya_hi/" target="_blank">Instagram</a> is always a good idea!'
   },
   {
-    heading: 'Lately, I\u2019m\u2026',
-    body: 'A heavy <a class="inline-link" href="https://letterboxd.com/jijiya_hi/" target="_blank">Letterboxd</a> user who steals a stars at others\u2019 reviews every single day. An armchair music critic who can\u2019t help but nod like a pigeon whenever a banger comes on. Currently obsessed with <span class="no-break">Rave sounds</span>\u2014and yes, I\u2019m deeply in love with <a class="inline-link" href="https://www.youtube.com/watch?v=MMSfBy2gdT4&feature=youtu.be" target="_blank">Fred again</a>..'
+    heading: 'The things, I love...\u2019m\u2026',
+    body: 'Heavy <a class="inline-link" href="https://letterboxd.com/jijiya_hi/" target="_blank">Letterboxd</a> user, loves reading others\u2019 reviews every single day. Armchair music critic, \u2019 nodding like a pigeon whenever a banger comes on. Currently obsessed with <span class="no-break">Rave sounds</span>\u2014and yes, I\u2019m deeply in love with <a class="inline-link" href="https://www.youtube.com/watch?v=MMSfBy2gdT4&feature=youtu.be" target="_blank">Fred again</a>..'
   },
   {
     heading: null,
