@@ -2,15 +2,15 @@
 const KOR_TEXTS = [
   {
     heading: '저는 말이죠...',
-    body: '2000년 5월, 영화 <span class="no-break"><span class="bracket">&lt;</span><a class="inline-link" href="https://ko.wikipedia.org/wiki/%EC%A1%B4_%EB%A7%90%EC%BD%94%EB%B9%84%EC%B9%98_%EB%90%98%EA%B8%B0" target="_blank">존 말코비치되기</a><span class="bracket">&gt;</span></span>가 한국에서 개봉하던 시기에 태어났어요. <span class="no-break">한양대학교</span>에서 커뮤니케이션디자인을 공부했고, <span class="no-break">University of Leed</span>에서 <span class="no-break">Graphic Design course</span>를 교환유학했어요.'
+    body: '2000년 5월, 영화 <span class="no-break"><span class="bracket">&lt;</span><a class="inline-link" href="https://ko.wikipedia.org/wiki/%EC%A1%B4_%EB%A7%90%EC%BD%94%EB%B9%84%EC%B9%98_%EB%90%98%EA%B8%B0" target="_blank">존 말코비치되기</a><span class="bracket">&gt;</span></span>가 한국에서 개봉하던 시기에 태어났어요. <span class="no-break">한양대학교</span>에서 커뮤니케이션디자인을 공부했고, <span class="no-break">University of Leed</span>에서 <span class="no-break">Graphic Design course</span>로 교환유학했어요.'
   },
   {
-    heading: '인생의 숙제, 디자인은...',
+    heading: '뭐하는 사람이냐면요...',
     body: '그래픽을 중심으로 작업하고 있어요. 그중에서도 책을 주로 만들어요. 제 작업은 제 <a class="inline-link" href="https://www.behance.net/juliehappy3137" target="_blank">비핸스</a>에서 더 자세히 설명되어 있어요. 저와 더 친밀하게 연결되고 싶으시다면 <a class="inline-link" href="https://www.instagram.com/jijiya_hi/" target="_blank">인스타그램</a>도 좋은 선택!'
   },
   {
-    heading: '요즘엔...',
-    body: '헤비 영화 평점 앱 유저, 맨날 한 번씩 들어가서 <a class="inline-link" href="https://pedia.watcha.com/ko-KR/users/RE952E8RnvQ72" target="_blank">왓챠피디아</a>에서 남의 리뷰를 훔쳐봐요. 방구석 음악 평론가, 좋은 음악을 들으면 비둘기처럼 고개를 까딱거리는 걸 즐겨해요. 현재 <span class="no-break">Rave sound</span>에 빠져 특히 <a class="inline-link" href="https://www.youtube.com/watch?v=MMSfBy2gdT4&feature=youtu.be" target="_blank">Fred again</a>과 사랑에 빠졌어요.'
+    heading: '좋아하는 건...',
+    body: '헤비 영화 평점 앱 유저, 맨날 한 번씩 들어가서 <a class="inline-link" href="https://pedia.watcha.com/ko-KR/users/RE952E8RnvQ72" target="_blank">왓챠피디아</a>에서 남의 리뷰를 훔쳐봐요. 방구석 음악 평론가, 좋은 음악을 들으며 비둘기처럼 고개를 까딱거리는 걸 즐겨해요. 현재 <span class="no-break">Rave sound</span>에 빠져 특히 <a class="inline-link" href="https://youtu.be/gfF8jzBVWvM?si=5y0hWxM_NuZVV3uXfeature=youtu.be" target="_blank">Fred again</a>과 사랑에 빠졌어요.'
   },
   {
     heading: null,
