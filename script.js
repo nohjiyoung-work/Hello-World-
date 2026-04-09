@@ -23,7 +23,7 @@ const KOR_TEXTS = [
 const ENG_TEXTS = [
   {
     heading: 'I am...',
-    body: 'I was born in May 2000, when <span class="no-break"><span class="bracket">&lt;</span><a class="inline-link" href="https://en.wikipedia.org/wiki/Being_John_Malkovich" target="_blank">Being John Malkovich</a><span class="bracket">&gt;</span></span> came out in Korea, ish. I studied <span class="no-break">Communication Design</span> at <span class="no-break">Hanyang University</span> and spent as exchange <span class="no-break">Graphic Design course student </span> at the <span class="no-break">University of Leeds</span>.'
+    body: 'I was born in May 2000, when <span class="no-break"><span class="bracket">&lt;</span><a class="inline-link" href="https://en.wikipedia.org/wiki/Being_John_Malkovich" target="_blank">Being John Malkovich</a><span class="bracket">&gt;</span></span> came out in Korea, ish. I studied <span class="no-break">Communication Design</span> at <span class="no-break">Hanyang University</span> and spent as exchange student of <span class="no-break">Graphic Design course</span> at the <span class="no-break">University of Leeds</span>.'
   },
   {
     heading: 'As for Design\u2026',
